@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Gordon | Book a table</title>
+    <meta
+      name="description"
+      content="Coffee shop in West Perth at Gordon Street"
+    />
+    <meta name="keywords" content="coffee, breakfast, lunch" />
+    <meta name="author" content="Neil Hart" />
+    <link rel="icon" type="image/x-icon" href="/images/littlegordonfavicon.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav
+    class="navbar navbar-expand-lg navbar-light bg-white"
+  >
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand">
+        <img
+          src="/images/littlegordontextandlogo.svg"
+          height="40"
+          alt="logo"
+        />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="menu.html" class="nav-item nav-link">Menu</a>
+          <a href="bookatable.html" class="nav-item nav-link active">Book a table</a>
+          <a href="wholesalers.html" class="nav-item nav-link">Wholesalers</a>
+          <a href="contactus.html" class="nav-item nav-link">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <img src="images/restaurant.jpg" width="100%">
+  </section>
+  <div class="display-6 text-center pt-5"><h1>Book a table</h1></div>
+  <div class="container py-5">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Select State</option>
+          <option>NT</option>
+          <option>QLD</option>
+          <option>NSW</option>
+          <option>ACT</option>
+          <option>VIC</option>
+          <option>WA</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-md-6">
+        <label for="inputNumberofpeople" class="form-label">Number of People</label>
+        <select id="inputState" class="form-select">
+          <option selected>Select number of people</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="datepicker" class="form-label">Select a Date</label>
+		<div class="input-group">
+			<input type="text" id="datepicker" class="form-control" placeholder="Select a date">
+			<span class="input-group-text">
+				<i class="bi bi-calendar"></i>
+			</span>
+		</div>
+      </div>
+      <div class="col-md-2">
+        <label for="inputTime" class="form-label">Time</label>
+        <input type="text" class="form-control" id="inputTime">
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Book Now!</button>
+      </div>
+    </form>
+  </div>
+  <div class="b-example-divider"></div>
+  <div class="b-example-divider mb-0"></div>
+  <!-- Footer -->
+  <footer class="bg-success text-light pt-5 pb-4">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+        <!-- Column 1 -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Little Gordon</h5>
+          <p>
+            We are here to make great coffee easy to enjoy anywhere, anytime.
+            Expect quality, character, and consistency in every cup.
+          </p>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Products</h5>
+          <p>
+            <a href="#" class="text-light text-decoration-none"
+              >Ethiopia Arsosala</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-light text-decoration-none"
+              >Colombia Brayan Smith</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-light text-decoration-none"
+              >Colombia Huila-Caloto</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-light text-decoration-none"
+              >Espresso blend</a
+            >
+          </p>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Useful Links</h5>
+          <p>
+            <a href="#" class="text-light text-decoration-none"
+              >Your Account</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-light text-decoration-none"
+              >Become an Affiliate</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-light text-decoration-none"
+              >Shipping Rates</a
+            >
+          </p>
+          <p><a href="#" class="text-light text-decoration-none">Help</a></p>
+        </div>
+        <!-- Column 4 -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Contact</h5>
+          <p>19 Gordon Street, West Perth,<br />WA 6005.</p>
+          <p>coffee@goodseedscoffee.com.au</p>
+          <p>0415 131 616</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer bottom -->
+    <div class="text-center p-3 border-top border-secondary">
+      © 2025 Company Name. All rights reserved.
+    </div>
+  </footer>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="script.js"></script>
+</body>
+</html>

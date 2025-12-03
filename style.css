@@ -1,0 +1,33 @@
+
+
+/*===== NAVBAR =====*/
+
+.nav-item {
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.nav-link {
+  color: #0b9434;
+}
+
+.img-opacity {
+  opacity: 0.6;
+}
+
+.img-darken {
+  width: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  background-image: url('images/loveofcoffee.jpg');
+  background-blend-mode: darken; /* Blends the color with the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.borderbottomright {
+  width: auto;
+  height: auto;
+  border-bottom-right-radius: 10px; /* Adjust radius for more/less rounding */
+}
