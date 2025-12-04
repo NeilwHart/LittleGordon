@@ -30,4 +30,17 @@
   width: auto;
   height: auto;
   border-bottom-right-radius: 10px; /* Adjust radius for more/less rounding */
+
+}
+
+.card-box:hover {
+  box-shadow: 3px 5px 20px #036e21;
+  transition: all 0.5s ease 0s;
+  transform: translateY(-2px);
+}
+
+.card-box:hover > i {
+  color: var(--primary);
+  background-color: var(--dark-success);
+  transition: all 0.5s ease 0s;
 }
