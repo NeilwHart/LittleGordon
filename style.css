@@ -1,4 +1,13 @@
 
+  .herobackground {
+    background-image: url(images/coffeeshop.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+  }
 
 /*===== NAVBAR =====*/
 
@@ -44,3 +53,4 @@
   background-color: var(--dark-success);
   transition: all 0.5s ease 0s;
 }
+
