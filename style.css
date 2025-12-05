@@ -21,7 +21,7 @@
   color: #0b9434;
 }
 
- .honestcoffee{
+ .honestcoffee {
   background-image: url('images/loveofcoffeebg.jpg');
   height: 100%;
   width: 100%;
@@ -48,6 +48,7 @@
   background-color: var(--dark-success);
   transition: all 0.5s ease 0s;
 }
+
 
 
 
