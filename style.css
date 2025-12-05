@@ -21,15 +21,10 @@
   color: #0b9434;
 }
 
-.img-opacity {
-  opacity: 0.6;
-}
-
-.img-darken {
-  width: 100vh;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-  background-image: url('images/loveofcoffee.jpg');
-  background-blend-mode: darken; /* Blends the color with the image */
+ .honestcoffee{
+  background-image: url('images/loveofcoffeebg.jpg');
+  height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -53,5 +48,6 @@
   background-color: var(--dark-success);
   transition: all 0.5s ease 0s;
 }
+
 
 
