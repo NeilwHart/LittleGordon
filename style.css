@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: -50px;
+    overflow: hidden;
   }
 
 /*===== NAVBAR =====*/
@@ -18,7 +18,7 @@
 }
 
 .nav-link {
-  color: #0b9434;
+  color: #0a7305;
 }
 
  .honestcoffee {
@@ -47,6 +47,10 @@
   color: var(--primary);
   background-color: var(--dark-success);
   transition: all 0.5s ease 0s;
+}
+
+.footer {
+  background-color: #0a7305;
 }
 
 
